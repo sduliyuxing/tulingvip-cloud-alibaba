@@ -3,8 +3,8 @@ spring:
   datasource:
       druid:
         username: root
-        password: Zw726515
-        jdbcUrl: jdbc:mysql://localhost:3306/tuling-ms-alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        password: 123456
+        jdbcUrl: jdbc:mysql://ninggc.cn:3307/tuling-ms-alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
         driverClassName: com.mysql.jdbc.Driver
         initialSize: 5
         minIdle: 5
@@ -26,7 +26,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.159.8:8847
+        server-addr: localhost:8848
         #metadata:
           #version: v1
         #namespace: 8b038ac3-f97b-46e4-8e77-c10eff1aec5c
