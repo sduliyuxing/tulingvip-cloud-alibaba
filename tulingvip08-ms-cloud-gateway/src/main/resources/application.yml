@@ -1,0 +1,32 @@
+#�滮GateWay�ķ���˿�
+server:
+  port: 8888
+#�滮gateWayע�ᵽ��nacos�ϵķ���Ӧ������
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+      discovery:
+        #gateway����ע�ᵽnacos�ϵĵ�ַ
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          #����gateway��nacos�ϻ�ȡ�����б�
+          enabled: false
+  profiles:
+    active: allFilter
+#����acutor�˵�
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      #�򿪶˵�����
+      show-details: always
+
+
+

@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+       - id: mic-tongpei #id必须要唯一
+         uri: lb://product-center
+         predicates:
+         #访问http://localhost:8888/**路径  都会转发到http://product-center/**
+         #eg.http://localhost:8888/selectProductInfoById/1-->http://product-center/selectProductInfoById/1
+          - Path=/**

@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+       - id: cookie-route #id必须要唯一
+         uri: lb://product-center
+         predicates:
+          #当我们的请求中包含了Cookie name=Company value=Tuling
+          #才转发请求
+          - Cookie=Company,Tuling
