@@ -27,6 +27,26 @@
 		<module>tulingvip01-ms-alibaba-rest-product</module>
 		<module>tulingvip01-ms-alibaba-nacosclient-order</module>
 		<module>tulingvip01-ms-alibaba-nacosclient-product</module>
+		<module>tulingvip01-ms-alibaba-config</module>
+		<module>tulingvip01-springboot-with-nacos-order</module>
+
+		<module>tulingvip02-ms-alibaba-customcfg-ribbon-order</module>
+		<module>tulingvip02-ms-alibaba-customlb-order</module>
+		<module>tulingvip02-ms-alibaba-customlb-product</module>
+		<module>tulingvip02-ms-alibaba-ribbon-order</module>
+		<module>tulingvip02-ms-alibaba-ribbon-pay</module>
+		<module>tulingvip02-ms-alibaba-ribbon-product</module>
+
+		<module>tulingvip03-ms-alibaba-customcfg-feign-order</module>
+		<module>tulingvip03-ms-alibaba-feign-api</module>
+		<module>tulingvip03-ms-alibaba-feign-order</module>
+		<module>tulingvip03-ms-alibaba-feign-product</module>
+
+		<module>tulingvip04-ms-alibaba-sentinel-order</module>
+		<module>tulingvip04-ms-alibaba-sentinel-product</module>
+		<module>tulingvip04-ms-alibaba-timeout-order</module>
+		<module>tulingvip04-ms-alibaba-timeout-product</module>
+
 	</modules>
 
 	<dependencies>
